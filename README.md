@@ -1,8 +1,5 @@
 # project-portfolio-command-assistant
 ACCIGEN Build #1 — A practical AI assistant for project portfolio visibility and decision support.
-# Project Portfolio Command Assistant
-
-ACCIGEN Build #1 — A practical AI assistant for project portfolio visibility and decision support.
 
 ## What this build demonstrates
 
