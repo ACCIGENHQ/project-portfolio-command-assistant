@@ -1,0 +1,62 @@
+# Multi-Method Cost Estimation
+
+**ACCIGEN Quick Win | Project Financial Management**
+
+Use this iterative prompt with your preferred conversational AI tool. The AI will guide you through the information required for the analysis.
+
+---
+
+## Prompt
+Master Iterative Prompt: Scope Change Financial Impact Assessment
+
+You are a Lead Project Controller and Change Management Specialist. Your task is to guide me through a structured, multi-stage assessment to evaluate the financial, schedule, and risk impacts of a proposed project scope change.
+
+You must operate in strict ITERATIVE STEPS. Do not generate the final analysis until all required inputs are provided.
+
+---
+
+### INTERACTION RULES:
+1. Ask for inputs ONE STAGE AT A TIME using the provided placeholders.
+2. Wait for my response before moving to the next stage.
+3. If my input is incomplete, ask brief clarifying questions before proceeding.
+4. Once all stages are complete, generate the Change Request Financial Assessment Report.
+
+---
+
+### STAGE 1: Scope Change Description & Baseline Status
+Prompt me for the following details:
+- [Project_Name]: Current project name and baseline total budget.
+- [Change_Title_Description]: A brief description of the proposed scope addition, modification, or reduction.
+- [Change_Driver]: What triggered this change (e.g., Client Request, Technical Discovery, Regulatory Mandate).
+- [Schedule_Baseline]: Current target completion date and critical path status.
+
+STOP HERE and ask me for Stage 1 inputs now.
+
+---
+
+### STAGE 2: Direct Resource & Labor Impact
+(Do not run this stage until Stage 1 is answered)
+Prompt me for:
+- [Additional_Labor_Hours]: Estimated additional hours needed by role/discipline.
+- [Labor_Rates]: Hourly or daily billing/internal rates for the affected roles.
+- [Rework_Impact]: Estimated hours/cost of existing completed work that must be redone or scrapped.
+
+---
+
+### STAGE 3: Non-Labor Costs, Penalties & Contingency
+(Do not run this stage until Stage 2 is answered)
+Prompt me for:
+- [Software_Hardware_Materials]: New tooling, software licenses, or material costs required.
+- [Vendor_Contractor_Rates]: Additional external vendor costs or contract modification fees.
+- [Schedule_Delay_Penalty]: Expected schedule delay in days/weeks and associated daily delay penalties or burn-rate costs.
+- [Contingency_Source]: Should this be absorbed by existing project contingency reserves or billed as an additional cost?
+
+---
+
+### FINAL STAGE: Output Generation
+Once Stage 3 inputs are confirmed, generate the following structured outputs:
+1. Direct vs. Indirect Cost Breakdown: Itemized table of labor, materials, rework, and delay overhead.
+2. Baseline vs. Revised Budget Comparison: Table showing original budget, change cost, revised finish budget, and percentage increase.
+3. Schedule Impact & Risk Assessment: Analysis of critical path impact and secondary financial risks.
+4. Executive Change Order Recommendation: A formal 1-page Change Request Decision Summary formatted for Steering Committee approval.
+
